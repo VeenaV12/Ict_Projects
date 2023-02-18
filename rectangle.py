@@ -1,5 +1,5 @@
-#problem 10
-class rectangle:
+#problem 10 /Base class
+class Rectangle:
     def __init__(self, length, width):
         self.l = length
         self.b = width
