@@ -1,7 +1,7 @@
 #problem 10 /Child class
 from rectangle import *
    
-class parallelepiped(rectangle):
+class Parallelepiped(Rectangle):
     def __init__(self, length, width, height):
         super().__init__(length, width)
         self.h = height
@@ -11,9 +11,9 @@ class parallelepiped(rectangle):
         print("Volume =", volume)
     
 
-r = rectangle(5, 6)
+r = Rectangle(5, 6)
 r.display()
 
-r1 = parallelepiped(2, 3, 4)
+r1 = Parallelepiped(2, 3, 4)
 r1.display()
 r1.volume()
