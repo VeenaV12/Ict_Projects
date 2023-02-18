@@ -1,4 +1,4 @@
-#problem 8
+#problem 10
 class rectangle:
     def __init__(self, length, width):
         self.l = length
