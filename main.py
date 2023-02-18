@@ -1,3 +1,4 @@
+#problem 10 /Child class
 from rectangle import *
    
 class parallelepiped(rectangle):
